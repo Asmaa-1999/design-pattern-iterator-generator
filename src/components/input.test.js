@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import Input from './Input';
+import Input from './input';
 
 test('should render Input component with label', () => {
   render(<Input label="Name" value="" onChange={() => {}} />);
